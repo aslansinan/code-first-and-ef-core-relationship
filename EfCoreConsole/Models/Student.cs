@@ -12,7 +12,9 @@ namespace EfCoreConsole.Models
         public string StudentName { get; set; }
         public int? GradeId { get; set; }//nullable
         public Grade Grade { get; set; }
-         }
+
+        public StudentAddress Address { get; set; }
+
     }
 
 }
